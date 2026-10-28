@@ -1,0 +1,11 @@
+<settings-container>
+<vertical id="calibration-settings-content" spacing="2" pad="2" horizontal-fit="Unconstrained" vertical-fit="PreferredSize" child-expand-height="false">
+  <button text="Calibrate to Current Position" pref-height="8" on-click="Calibrate" />
+  <button text="Clear Session Calibration" pref-height="8" on-click="Clear" />
+  <toggle-setting text="Auto Calibrate on Launch" value="AutoCalibrateOnLaunch" bind-value="true" apply-on-change="true" hover-hint="Takes effect on next launch" />
+  <dropdown-list-setting text="Left Calibration Button" value="LeftButton" options="ButtonChoices" bind-value="true" apply-on-change="true" />
+  <dropdown-list-setting text="Right Calibration Button" value="RightButton" options="ButtonChoices" bind-value="true" apply-on-change="true" />
+  <increment-setting text="Preparation Time" value="PreparationSeconds" increment="0.25" min="0.5" max="5" integer-only="false" formatter="FormatSeconds" bind-value="true" apply-on-change="true" />
+  <dropdown-list-setting text="Keyboard Shortcut" value="Keyboard" options="KeyboardChoices" bind-value="true" apply-on-change="true" />
+</vertical>
+</settings-container>
