@@ -1,0 +1,3 @@
+RoomCalibration original code is covered by LICENSE.
+Beat Saber, Unity and external mod assemblies are referenced from the user installation and are not redistributed.
+External dependencies retain their original licenses.
