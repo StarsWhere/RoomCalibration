@@ -1,0 +1,9 @@
+{
+  "id": "RoomCalibrationSmoke",
+  "name": "Room Calibration Runtime Smoke",
+  "author": "Local",
+  "version": "0.1.0",
+  "gameVersion": "1.45.2",
+  "description": "Temporary runtime verification for RoomCalibration.",
+  "dependsOn": { "BSIPA": "^4.3.7", "RoomCalibration": "^0.4.0" }
+}
